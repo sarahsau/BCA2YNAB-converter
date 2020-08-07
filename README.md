@@ -2,7 +2,12 @@
 This ruby script converts the transactions CSV file exported from Purdue Federal to a file able to be imported by YNAB
 
 
-Run the script using: 
+Install ruby gem 'csv' first:
+```
+ruby gem csv
+```
+
+Run the script using:
 ```
 ynabConverter.rb <exportedTransactions.csv> <FilenameToExport>
 ```
